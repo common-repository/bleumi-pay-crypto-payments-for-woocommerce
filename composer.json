@@ -1,0 +1,34 @@
+{
+    "name": "bleumi/bleumi-pay-woocommerce",
+    "type": "wordpress-plugin",
+    "description": "Enable your WooCommerce store to accept digital currency payments with Bleumi Pay.",
+    "version": "1.0.9",
+    "keywords": [
+      "bleumipay",
+      "woocommerce",
+      "payment",
+      "payment-gateway",
+      "payment-processing",
+      "digital-currency-payments",
+      "accept-digital-currency-payments",
+      "ethereum",
+      "eth",
+      "erc20-tokens",
+      "algorand",
+      "rsk",
+      "rsk-erc20-tokens"
+    ],
+    "homepage": "https://bleumi.pay.com",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Bleumi Pay",
+        "email": "support@bleumi.com",
+        "homepage": "https://bleumi.pay.com",
+        "role": "Developer"
+      }
+    ],
+    "require": {
+        "bleumi/bleumi-pay-sdk-php":"^1.0.22"
+    }
+}
